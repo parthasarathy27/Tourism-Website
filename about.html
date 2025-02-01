@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/HomePage/travel-icon.png" type="image/png">
+    <title>About Us - Explore Paradise</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .navbar {
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 12px 25px;
+        }
+
+        .navbar-brand {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #007bff !important;
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-left: 15px;
+            transition: all 0.3s ease;
+            color: #333 !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #007bff !important;
+            transform: scale(1.1);
+        }
+
+        .hero-section {
+            background: url('images/AboutPage/about-bg.jpg') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        .hero-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 139, 0.5);
+        }
+
+        .hero-section .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .about-section {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .about-content {
+            max-width: 900px;
+            margin: auto;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .about-img {
+            width: 100%;
+            max-width: 900px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-box {
+            margin-top: 40px;
+        }
+
+        .feature-box h4 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .footer {
+            background: #222;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #ff9800;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #e68900;
+        }
+
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #ff9800;
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Explore Paradise</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="packages.html">Package Details</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <h1>About Explore Paradise</h1>
+            <p class="lead">Unveiling breathtaking landscapes and unforgettable experiences.</p>
+        </div>
+    </header>
+
+    <section class="about-section">
+        <div class="container">
+            <p class="about-content">Welcome to Explore Paradise – a gateway to stunning landscapes, exotic cultures,
+                and thrilling adventures. Whether you seek peaceful retreats or adrenaline-filled excursions, we curate
+                experiences that match your travel dreams.</p>
+            <img src="images/AboutPage/Explore Paradise.jpg" class="about-img" alt="Explore Paradise">
+            <p class="about-content">Our carefully designed travel packages offer luxurious stays, immersive cultural
+                experiences, and breathtaking sights. From tropical beaches to rugged mountains, we bring you the best
+                of the world's wonders.</p>
+        </div>
+    </section>
+
+    <section class="container text-center feature-box">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/AboutPage/Luxury Resorts.jpg" class="img-fluid rounded shadow" alt="Luxury Resorts">
+                <h4>Luxury Resorts</h4>
+                <p>Experience world-class accommodations with stunning views and exceptional hospitality.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/AboutPage/Adventure Activities.jpg" class="img-fluid rounded shadow"
+                    alt="Adventure Activities">
+                <h4>Adventure Activities</h4>
+                <p>Enjoy thrilling activities like scuba diving, mountain trekking, and more.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/AboutPage/Local Cuisine.jpg" class="img-fluid rounded shadow" alt="Local Cuisine">
+                <h4>Authentic Cuisine</h4>
+                <p>Delight in delicious, authentic dishes that capture the essence of each destination.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Explore Paradise. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" class="btn btn-link"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" class="btn btn-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/?lang=en" class="btn btn-link"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
