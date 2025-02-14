@@ -86,3 +86,4 @@ tourism-website/
 - Ensure that the layout is fully responsive, adapting well to mobile, tablet, and desktop screens.
 - The "Book Now" buttons do not perform real bookings but are designed to simulate the process.
 - The map and contact form sections are placeholders and do not submit real data.
+---
